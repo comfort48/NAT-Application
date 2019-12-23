@@ -54,7 +54,6 @@ void NetworkAddressTranslation::natFlowMapper(string flowFileName) {
     while(getline(flowInputFile, line)) {             // Read line by line to translate the incoming address to a specific network address
 
         if(!line.empty()) {
-            istringstream iss(line);
 
             string incoming_address_pair = line;
 
