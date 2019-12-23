@@ -32,14 +32,14 @@ Network Address Translation:
 
 
 
-******************************************************************************** Assumptions ************************************************************************* 
+******************************************* Assumptions *********************************************** 
 
 1) I assumed that the input files names are always NAT and FLOW respectively and that is the reason why I hardcoded the input file names in NAT_Application.cpp file.
 
 2) I assumed that all the input contents in the files NAT and FLOW are valid and not contain any invalid inputs
 
 
-******************************************************************************** Optimizations & Algorithmic Tradeoffs ***************************************************************
+******************************************* Optimizations & Algorithmic Tradeoffs ************************************
 
 1) Once the IP is populated to NAT mapper, there is a chance that the machine in the network could go down or permanently removed from the network, in that case  we need to erase the machine's ip from the NAT mapper. This feature could bring more dynamics into play, but this could be done as a new feature.
 
