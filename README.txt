@@ -13,7 +13,7 @@ Network Address Translation:
 	Input: 2 files named "NAT" and "FLOW" - These names are hardcoded into the application.
 	Output: output is written to a file named OUTPUT.txt in the directory of the NAT_Application.
 
-3) How to run: - I tested on a Linux machine (UBUNTU) which has "make" installed. If you don't have make isntalled, just compile the  NAT_Application.cpp using "g++ NAT_Application.cpp" and run using "./a.out" command  
+3) How to run: - I tested on a Linux machine (UBUNTU) which has "make" installed. If you don't have make installed, just compile the  NAT_Application.cpp using "g++ NAT_Application.cpp" and run using "./a.out" command  
 	
 	If "make" command works fine in your PC, Just go into the directory "NAT_Application" then, run the command "make" - This command compiles and runs the nat_application. Once done, check the OUTPUT.txt file for the translated addresses.
 
